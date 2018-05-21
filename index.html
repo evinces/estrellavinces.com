@@ -1,151 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-    <title>Estrella Vinces | Full-Stack Software Engineer</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="description" content="Portfolio site for Estrella Vinces; Full-Stack Software Engineering, Back-End Engineering, Machine Learning">
-    <meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="Portfolio site for Estrella Vinces; Full-Stack Software Engineering, Back-End Engineering, Machine Learning" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:title" content="Estrella Vinces | Full-Stack Software Engineer" />
-    <meta property="og:description" content="Portfolio site for Estrella Vinces; Full-Stack Software Engineering, Back-End Engineering, Machine Learning"/>
-    <meta property="og:image" content="image URL">
-    <meta property="og:locale" content="en-IN">
-    <meta property="og:title" content="Estrella Vinces | Full-Stack Software Engineer"/>
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.estrellavinces.com/">
+  <title>Estrella Vinces | Full-Stack Software Engineer</title>
+
+  <!-- Metadata -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Portfolio site for Estrella Vinces; Full-Stack Software Engineering, Machine Learning" />
+
+  <!-- Twitter metadata -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="Portfolio site for Estrella Vinces; Full-Stack Software Engineering, Machine Learning" />
+  <meta name="twitter:title" content="Estrella Vinces | Full-Stack Software Engineer" />
+
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="Estrella Vinces | Full-Stack Software Engineer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://cl.evinc.es/r4lz/me.jpg" />
+  <meta property="og:url" content="http://evinc.es/" />
+  <meta property="og:description" content="Portfolio site for Estrella Vinces; Full-Stack Software Engineering, Machine Learning" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-<div class="wrapper">
-<div class="left-col">
-    <header>
-        <h1>Estrella Vinces</h1>
-        <h2>Software Engineer</h2>
-    </header>
-    <article class="contact">
-        <p>San Francisco Bay Area</p>
-        <div class="left">
-            <p>email</p>
-            <p>web</p>
-        </div><!--
-     --><div class="right">
-            <p><a href="mailto:estrella@evinc.es">estrella@evinc.es</a></p>
-            <p><a href="https://www.linkedin.com/in/evinces">linkedin.com/in/evinces</a></p>
-            <p><a href="https://github.com/evinces">github.com/evinces</a></p>
-        </div>
-    </article>
-    <article class="tech">
-        <h2>Technologies</h2>
-        <section>
+  <div class="container my-sm-3 my-md-5 mx-auto">
+    <div class="row mw-75">
+      <div class="col-12 col-md-5 col-lg-4">
+        <header>
+          <div class="image">
+            <img src="http://cl.evinc.es/r4lz/me.jpg" />
+          </div>
+          <h1>Estrella Vinces</h1>
+          <h2>Software Engineer</h2>
+        </header>
+        <section class="contact">
+          <p class="my-2 fw400">San Francisco Bay Area</p>
+          <div class="d-flex flex-row">
+            <div class="w-25">
+              <p class="fw400 orange">email</p>
+              <p class="fw400 orange">web</p>
+            </div>
+            <div>
+              <p><a href="mailto:estrella@evinc.es">estrella@evinc.es</a></p>
+              <p><a href="https://www.linkedin.com/in/evinces">linkedin.com/in/evinces</a></p>
+              <p><a href="https://github.com/evinces">github.com/evinces</a></p>
+            </div>
+          </div>
+        </section>
+        <section class="tech">
+          <h2>Technologies</h2>
+          <article>
             <h3>Languages</h3>
-            <ul>
-                <li>Python, Javascript (AJAX, JSON), HTML, CSS, SQL</li>
-            </ul>
-        </section>
-        <section>
+            <p>Python, Javascript (AJAX, JSON), HTML, CSS, SQL</p>
+          </article>
+          <article>
             <h3>Frameworks &amp; Libraries</h3>
-            <ul>
-                <li>Flask, jQuery, Bootstrap, Jinja</li>
-            </ul>
-        </section>
-        <section>
+            <p>Flask, jQuery, Bootstrap, Jinja</p>
+          </article>
+          <article>
             <h3>Database / Industry Tools</h3>
-            <ul>
-                <li>PostgreSQL, GraphQL, BigQuery, MAQL, Git, GitHub, Command Line</li>
-            </ul>
-        </section>
-        <section>
+            <p>PostgreSQL, GraphQL, BigQuery, MAQL, Git, GitHub, Command Line</p>
+          </article>
+          <article>
             <h3>Tools / Software</h3>
-            <ul>
-                <li>JIRA, Salesforce, Service Cloud, Zendesk, GoodData, Google App Engine, Google Suite</li>
-            </ul>
+            <p>JIRA, Salesforce, Service Cloud, Zendesk, GoodData, Google App Engine, Google Suite</p>
+          </article>
         </section>
-    </article>
-    <article class="education">
-        <h2>Education</h2>
-        <section>
+        <section class="education">
+          <h2>Education</h2>
+          <article>
             <h3>Hackbright Academy</h3>
-            <p class="ital"><span class="left">Santa Clara, CA</span><span class="right">May 2018</span></p>
-            <ul>
-                <li>Software Engineering Program</li>
-            </ul>
-        </section>
-        <section>
+            <div class="d-flex flex-row">
+              <p>Santa Clara, CA</p>
+              <p class="ml-auto text-right">May 2018</p>
+            </div>
+            <p>Full-Stack Software Engineering Program</p>
+          </article>
+          <article>
             <h3>College of San Mateo</h3>
-            <p class="ital"><span class="left">San Mateo, CA</span><span class="right">June 2007</span></p>
-            <ul>
-                <li>Certificate, C++ Programming</li>
-                <li>Certificate, Java Programming</li>
-            </ul>
-        </section>
-        <section>
+            <div class="d-flex flex-row">
+              <p>San Mateo, CA</p>
+              <p class="ml-auto text-right">June 2007</p>
+            </div>
+            <p>Certificate, C++ Programming</p>
+            <p>Certificate, Java Programming</p>
+          </article>
+          <article>
             <h3>SAE Expression College</h3>
-            <p class="ital"><span class="left">Emeryville, CA</span><span class="right">June 2004</span></p>
-            <ul>
-                <li>Associate of Applied Science, Digital Visual Media</li>
-            </ul>
+            <div class="d-flex flex-row">
+              <p>Emeryville, CA</p>
+              <p class="ml-auto text-right">June 2004</p>
+            </div>
+            <p>Associate of Applied Science, Digital Visual Media</p>
+          </article>
         </section>
-    </article>
-</div><div class="right-col">
-    <article class="projects">
-        <h2>Projects</h2>
-        <section style="display: none;">
-            <h3>Hackbright Project</h3>
+      </div>
+      <div class="col-12 col-md-7 col-lg-8">
+        <section class="projects">
+          <h2>Projects</h2>
+          <article>
+            <div class="d-flex flex-row">
+              <h3>DeepPaint</h3>
+              <p class="ml-auto text-right fw400">Hackbright Academy</p>
+            </div>
             <ul>
-                <li>[description_placeholder] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li>Tech Stack: [status]</li>
-                <li>GitHub Link: <a href="https://github.com/evinces">https://github.com/evinces/[repository_link]</a></li>
+              <li>A photo-sharing webapp leveraging a Tensorflow-based deep neural network for style transfer. The convolutional network generates images by blending the features of user uploaded photos with the texture of famous paintings.</li>
+              <li><em>Tech Stack</em>: Python, Javascript, Tensorflow, Scikit, PostgreSQL, SQLAlchemy, Flask, Jinja, React, jQuery, Werkzeug, Pillow, Unittest, Coverage</li>
+              <li>GitHub: <a href="https://github.com/evinces/deep-paint">github.com/evinces/deep-paint</a></li>
+              <li>URL: <a href="https://deep-paint.com">deep-paint.com</a></li>
             </ul>
-        </section>
-        <section>
-            <h3>Samsara REST API / GraphQL Report Builder</h3>
+          </article>
+          <article>
+            <div class="d-flex flex-row">
+              <h3>Samsara REST API / GraphQL Report Builder</h3>
+              <p class="ml-auto text-right fw400">Samsara</p>
+            </div>
             <ul>
-                <li>Google Spreadsheets extension which connects to Samsara’s public REST API and private GraphQL API for data export from the Samsara cloud. Pulled data is parsed into a Google Sheet or CSV and delivered to the user.</li>
-                <li>Tech Stack: Javascript, GraphQL, Google Apps Script, Google Spreadsheets API</li>
+              <li>Google Spreadsheets extension which connects to Samsara’s public REST API and private GraphQL API for data export from the Samsara cloud. Pulled data is parsed into a Google Sheet or CSV and delivered to the user.</li>
+              <li><em>Tech Stack</em>: Javascript, GraphQL, Google Apps Script, Google Spreadsheets API</li>
             </ul>
-        </section>
-        <section>
-            <h3>Support Data Reporting</h3>
+          </article>
+          <article>
+            <div class="d-flex flex-row">
+              <h3>Support Data Reporting</h3>
+              <p class="ml-auto text-right fw400">Humble Bundle</p>
+            </div>
             <ul>
-                <li>Suite of easy to understand, automated reports built in GoodData using custom MAQL queries. Regularly utilized by Product, Business Development, Operations, and Engineering teams to convey quantitative support request trends.</li>
-                <li>Tech Stack: Javascript, jQuery, GoodData, MAQL, Zendesk</li>
+              <li>Suite of easy to understand, automated reports built in GoodData using custom MAQL queries. Regularly utilized by Product, Business Development, Operations, and Engineering teams to convey quantitative support request trends.</li>
+              <li><em>Tech Stack</em>: Javascript, jQuery, GoodData, MAQL, Zendesk</li>
             </ul>
+          </article>
         </section>
-    </article>
-    <article class="experience">
-        <h2>Experience</h2>
-        <section>
-			<h3><span class="left">Samsara</span><span class="ital right">San Francisco, CA</span><br />
-                <span class="ital left">Systems Support Engineer</span><span class="ital right">Dec 2016 — Jan 2018</span></h3>
+        <section class="experience">
+          <h2>Experience</h2>
+          <article>
+            <div class="d-flex flex-row">
+              <div>
+                <h3>Samsara</h3>
+                <h4><em>Systems Support Engineer</em></h4>
+              </div>
+              <div class="ml-auto text-right">
+                <p class="fw400">San Francisco, CA</p>
+                <p class="fw400">Dec 2016 — Jan 2018</p>
+              </div>
+            </div>
             <ul>
-                <li>Provided top-tier support for Samsara’s in-house hardware, mobile app, cloud dashboard, and REST API.</li>
-                <li>Identified, prioritized and communicated bugs and feature improvement recommendations to Product Management and Engineering teams.</li>
-                <li>Composed incident post-mortem reports for Business, Product Management and Engineering stakeholders, used to develop plans to prevent recurrence.</li>
-                <li>Collaborated with Business, Product Management and Engineering teams to plan Support policies, procedures and KPIs to prepare for Support team growth from 2 to 15 members and beyond.</li>
+              <li>Provided top-tier support for Samsara’s in-house hardware, mobile app, cloud dashboard, and REST API.</li>
+              <li>Identified, prioritized and communicated bugs and feature improvement recommendations to Product Management and Engineering teams.</li>
+              <li>Composed incident post-mortem reports for Business, Product Management and Engineering stakeholders, used to develop plans to prevent recurrence.</li>
+              <li>Collaborated with Business, Product Management and Engineering teams to plan Support policies, procedures and KPIs to prepare for Support team growth from 2 to 15 members and beyond.</li>
             </ul>
-        </section>
-        <section>
-            <h3><span class="left">Humble Bundle</span><span class="ital right">San Francisco, CA</span><br />
-                <span class="ital left">Customer Support Project Manager</span><span class="ital right">Apr 2015 — Dec 2016</span></h3>
+          </article>
+          <article>
+            <div class="d-flex flex-row">
+              <div>
+                <h3>Humble Bundle</h3>
+                <h4><em>Customer Support Project Manager</em></h4>
+              </div>
+              <div class="ml-auto text-right">
+                <p class="fw400">San Francisco, CA</p>
+                <p class="fw400">Apr 2015 — Dec 2016</p>
+              </div>
+            </div>
             <ul>
-                <li>Directed a team of up to four project leads, providing guidance and advice to ensure projects maintained scope and milestone expectations.</li>
-                <li>Overhauled the Support team’s project pipeline, allowing for significantly improved productivity, and encouraged project engagement.</li>
-                <li>Designed and implemented 130 potential attributes for categorizing and classifying inbound support requests.</li>
+              <li>Directed a team of up to four project leads, providing guidance and advice to ensure projects maintained scope and milestone expectations.</li>
+              <li>Overhauled the Support team’s project pipeline, allowing for significantly improved productivity, and encouraged project engagement.</li>
+              <li>Designed and implemented 130 potential attributes for categorizing and classifying inbound support requests.</li>
             </ul>
-        </section>
-        <section>
-            <h3><span class="left">GameStop</span><span class="ital right">San Bruno, CA</span><br />
-                <span class="ital left">Store Manager</span><span class="ital right">Sept 2008 — Jan 2015</span></h3>
+          </article>
+          <article>
+            <div class="d-flex flex-row">
+              <div>
+                <h3>GameStop</h3>
+                <h4><em>Store Manager</em></h4>
+              </div>
+              <div class="ml-auto text-right">
+                <p class="fw400">San Bruno, CA</p>
+                <p class="fw400">Sept 2008 — Jan 2015</p>
+              </div>
+            </div>
             <ul>
-                <li>Drove employees to provide best-in-class customer service experiences.</li>
-                <li>Managed P&amp;L statements, product stock levels, and store layout.</li>
-                <li>Recruited, hired, developed and retained a diverse staff of 5 to 10 employees.</li>
+              <li>Drove employees to provide best-in-class customer service experiences.</li>
+              <li>Managed P&amp;L statements, product stock levels, and store layout.</li>
+              <li>Recruited, hired, developed and retained a diverse staff of 5 to 10 employees.</li>
             </ul>
+          </article>
         </section>
-    </article>
-</div>
-</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 
